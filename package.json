@@ -6,7 +6,8 @@
   "types": "src/preset-classic.d.ts",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "shipit": "npx np",
+    "test": "echo 'YOLO'"
   },
   "publishConfig": {
     "access": "public"
