@@ -2,17 +2,15 @@
   "compilerOptions": {
     "target": "ES2019",
     "module": "commonjs",
-    "lib": ["ESNext", "DOM"],
+    "lib": ["DOM", "ES2019"],
     "declaration": true,
     "declarationMap": false,
     "jsx": "react",
     "rootDir": "src",
     "outDir": "lib",
-    "incremental": true,
-    "tsBuildInfoFile": "./lib/.tsbuildinfo",
 
     /* Strict Type-Checking Options */
-    "strict": true,
+    // "strict": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
